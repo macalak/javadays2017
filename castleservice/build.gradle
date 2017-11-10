@@ -40,6 +40,8 @@ dependencies {
 	compile('org.springframework.cloud:spring-cloud-starter-eureka')
 	compile("org.springframework.boot:spring-boot-starter-data-jpa")
 	compile("org.springframework.boot:spring-boot-starter-data-rest")
+	// Enable for actuator: endpoints.hypermedia.enabled=true
+	compile("org.springframework.boot:spring-boot-starter-hateoas")
     //To enable HAL(Hypertext Application Language) browser of the REST API
 	compile("org.springframework.data:spring-data-rest-hal-browser")
 	//Flyway DB migration
@@ -48,6 +50,8 @@ dependencies {
 	runtime("org.jolokia:jolokia-core")
 	compile('org.springframework.cloud:spring-cloud-starter-sleuth')
 	compile('org.springframework.cloud:spring-cloud-sleuth-zipkin')
+
+	compile('com.github.pukkaone:logback-gelf:1.1.9')
 
 	//runtime 'org.apache.derby:derby:10.11.1.1'
 	runtime "com.h2database:h2"

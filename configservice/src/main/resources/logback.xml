@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-	<property resource="bootstrap.properties" />
 	<property name="CONSOLE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-3marker %-5level %logger{36} - %msg [%X{correlation-id:-}]%n"/>
 	<include resource="org/springframework/boot/logging/logback/base.xml" />
 	<jmxConfigurator/>
