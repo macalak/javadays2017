@@ -49,7 +49,7 @@ class CastleApiGateway {
 
 @FeignClient("castleservice")
 interface ReservationReader {
-    @RequestMapping(method = RequestMethod.GET, value = "/castle")
+    @RequestMapping(method = RequestMethod.GET, value = "/castles")
     List<Castle> read();
 }
 

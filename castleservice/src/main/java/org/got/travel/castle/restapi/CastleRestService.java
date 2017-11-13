@@ -28,7 +28,7 @@ public class CastleRestService {
     @Autowired
     CastleService castleService;
     
-    @RequestMapping(produces={"application/json"}, value="/castle", method=RequestMethod.GET )
+    @RequestMapping(produces={"application/json"}, value="/castles", method=RequestMethod.GET )
     public List<Castle> getCastles() {
     	LOG.info("Processing client request...");
         return castleService.getCastles();

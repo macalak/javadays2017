@@ -1,0 +1,5 @@
+- job_name: 'castleservice'
+  scrape_interval: "15s"
+  static_configs:
+  - targets:
+    - '192.168.99.1:9190'
