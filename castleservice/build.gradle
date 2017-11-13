@@ -52,6 +52,8 @@ dependencies {
 	compile('org.springframework.cloud:spring-cloud-sleuth-zipkin')
 
 	compile('com.github.pukkaone:logback-gelf:1.1.9')
+	compile('com.moelholm:prometheus-spring-boot-starter:1.0.1')
+
 
 	//runtime 'org.apache.derby:derby:10.11.1.1'
 	runtime "com.h2database:h2"
