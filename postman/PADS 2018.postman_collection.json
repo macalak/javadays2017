@@ -1,0 +1,131 @@
+{
+	"info": {
+		"name": "PADS 2018",
+		"_postman_id": "8ee292ed-1d75-2ea5-1d80-5f49a9bc7542",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CFG Castleservice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8888/castleservice/default/development",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CFG CastleGTW",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8888/castlegtw/default/development",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "HEALTH Castleservice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/health",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "INFO Castleservice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/info",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "TRACE Castleservice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/trace",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "LOGGERS Castleservice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/loggers",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PROMETHEUS Castleservice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/prometheus",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PROMETHEUS AGENT Castleservice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:9190/",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CASTLES Castleservice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/castles",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CASTLES Castle GTW",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8090/gateway/castles",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "TRACE Castle GTW",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8090/trace",
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
